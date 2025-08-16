@@ -1,7 +1,5 @@
 <template>
-  <nav
-    class="glass-card rounded-l-none h-[calc(100vh-3rem)] flex flex-col w-full p-0 overflow-hidden"
-  >
+  <nav class="glass-card rounded-l-none min-h-screen flex flex-col w-full p-0 overflow-hidden">
     <div class="flex items-center justify-between mb-4 p-4 pb-0">
       <h2 class="text-xl font-bold text-gray-700">대화 목록</h2>
       <button
