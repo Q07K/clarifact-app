@@ -2,11 +2,13 @@
   <div class="glass-card overflow-hidden">
     <div class="p-4 sm:p-6 border-b border-white/30 flex justify-between items-center">
       <h2 class="text-lg sm:text-xl font-bold text-gray-800">{{ title }}</h2>
-      <div class="px-3 py-1 text-sm font-medium rounded-full" :class="statusClass">{{ status }}</div>
+      <div class="px-3 py-1 text-sm font-medium rounded-full" :class="statusClass">
+        {{ status }}
+      </div>
     </div>
     <div class="p-4 sm:p-6">
       <div class="bg-blue-500/10 p-4 rounded-lg mb-6 border border-white/20">
-        <p class="font-bold" style="color: var(--color-primary);">TL;DR (AI 요약)</p>
+        <p class="font-bold" style="color: var(--color-primary)">TL;DR (AI 요약)</p>
         <p class="text-gray-700">{{ summary }}</p>
       </div>
       <slot name="main-content-area"></slot>
@@ -26,5 +28,5 @@
   </div>
 </template>
 <script setup>
-// props: title, summary, status, statusClass
+  // props: title, summary, status, statusClass
 </script>

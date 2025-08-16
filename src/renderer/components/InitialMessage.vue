@@ -4,5 +4,4 @@
     <p class="text-sm">ClariFact AI가 정보를 종합하고 정제하여 보여드립니다.</p>
   </div>
 </template>
-<script setup>
-</script>
+<script setup></script>
