@@ -4,7 +4,7 @@
       <input
         type="text"
         class="w-full pl-4 pr-48 py-3 text-base sm:text-lg bg-white/50 border-2 border-white/40 rounded-lg focus:ring-2 focus:ring-accent focus:border-transparent transition-shadow placeholder-gray-500"
-        placeholder="스태그플레이션 원인, 또는 python TypeError 해결 방법"
+        placeholder="ClariFact에게 질문하기"
         v-model="prompt"
         @keyup.enter="onGenerate"
       />
